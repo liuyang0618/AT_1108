@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="suite">
+    <test name="Login">
+        <classes>
+            <class name="com.ly.testng.TestNGTest"></class>
+<!--                <methods>-->
+<!--                    <include name="test1"/>-->
+<!--                    <include name="test2"/>-->
+<!--                    <include name="test3"/>-->
+<!--                    <include name="test4"/>-->
+<!--                </methods>-->
+
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.ly.reporter.ExtentTestNGIReporterListener" />
+    </listeners>
+</suite>
